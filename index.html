@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sizamayeen Kadri</title>
+  <meta name="description" content="Sizamayeen Kadri — Data Analyst in Toronto building automated dashboards, ETL pipelines, and BI solutions that turn raw data into decisions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <div class="page-curtain" id="pageCurtain" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="scrollBar" id="scrollBar" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a class="logo" href="#home">SK</a>
+      <nav class="menu" aria-label="Primary">
+        <a class="menu__link" href="#home"    data-section="home">Home</a>
+        <a class="menu__link" href="#about"   data-section="about">About</a>
+        <a class="menu__link" href="#project" data-section="project">Projects</a>
+        <a class="menu__link" href="#contact" data-section="contact">Contact</a>
+        <a class="menu__link menu__link--cta" href="assets/Resume_Sizamayeen_Kadri.pdf" target="_blank" rel="noreferrer">Resume ↗</a>
+        <button class="themeBtn" id="themeBtn" aria-label="Toggle theme" title="Toggle theme">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3a7 7 0 1 0 11.5 11.5Z" fill="currentColor"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─── HERO ─── -->
+  <main id="home" class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <span class="hero__orb hero__orb--a"></span>
+      <span class="hero__orb hero__orb--b"></span>
+      <span class="hero__orb hero__orb--c"></span>
+      <span class="hero__grain"></span>
+    </div>
+
+    <div class="wrap hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          <span class="hero__greeting reveal" data-delay="0">Hi, I'm</span>
+          <span class="hero__name reveal" data-delay="80">Sizamayeen</span>
+          <span class="hero__name reveal" data-delay="160">Kadri<span class="hero__period">.</span></span>
+        </h1>
+        <p class="hero__sub reveal" data-delay="240">I turn messy data into decisions — building pipelines that clean it, dashboards that surface what matters, and automations that save the hours people shouldn't be spending.</p>
+        <div class="hero__actions reveal" data-delay="400">
+          <a class="heroBtn heroBtn--fill" href="#project">View Projects</a>
+          <a class="heroBtn heroBtn--ghost" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+
+    <a class="hero__scroll" href="#about" aria-label="Scroll to About">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+        <path d="M7 10.5 12 15l5-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M7 6.5 12 11l5-4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+
+    <div class="hero__ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span class="ticker__item">SQL</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">PYTHON</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">POWER BI</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">DAX</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">POWER QUERY</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">POWER AUTOMATE</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">TABLEAU</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">STREAMLIT</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">POSTGRESQL</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">PANDAS</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">NUMPY</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">EXCEL</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">ETL PIPELINES</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">KPI REPORTING</span><span class="ticker__sep">·</span>
+        <!-- duplicate for seamless loop -->
+        <span class="ticker__item">SQL</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">PYTHON</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">POWER BI</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">DAX</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">POWER QUERY</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">POWER AUTOMATE</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">TABLEAU</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">STREAMLIT</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">POSTGRESQL</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">PANDAS</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">NUMPY</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">EXCEL</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">ETL PIPELINES</span><span class="ticker__sep">·</span>
+        <span class="ticker__item">KPI REPORTING</span><span class="ticker__sep">·</span>
+      </div>
+    </div>
+  </main>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about" class="section sectionBoundary">
+    <div class="wrap">
+      <p class="section__eyebrow reveal" data-delay="0">WHO I AM</p>
+      <h2 class="section__title reveal" data-delay="60">About</h2>
+
+      <div class="about">
+        <div class="about__left">
+          <p class="about__text reveal" data-delay="0">
+            I'm a data analyst based in Toronto — the kind who is not satisfied
+            until the numbers actually mean something to the person reading them.
+            I work across the full data stack: cleaning raw inputs, building ETL pipelines,
+            modeling in SQL, and packaging it all into dashboards that make the answer obvious at a glance.
+          </p>
+          <p class="about__text reveal" data-delay="80">
+            What drives me is the moment a 3-day manual process becomes a 4-hour automated one,
+            or when a 6-page dashboard surfaces a $340K churn risk that nobody had spotted.
+            I hold my work to a simple standard: does it make someone's job measurably easier?
+            If the answer is yes, the engineering was worth it.
+          </p>
+          <p class="about__text reveal" data-delay="160">
+            I hold a postgraduate diploma in Big Data Analytics and another in Project Management
+            from Georgian College, and a BSc in Mathematics from Gujarat University.
+            Outside of data, you'll find me at industry events — Snowflake World Tour, Google Looker User Group,
+            Women in AI hackathons — staying curious about where the field is going next.
+          </p>
+
+          <div class="about__stack reveal" data-delay="240">
+            <p class="about__stackLabel">Tech I work with</p>
+            <div class="about__stackGrid">
+              <span class="stackTag">SQL</span>
+              <span class="stackTag">Python</span>
+              <span class="stackTag">Power BI</span>
+              <span class="stackTag">DAX</span>
+              <span class="stackTag">Power Query</span>
+              <span class="stackTag">Power Automate</span>
+              <span class="stackTag">Tableau</span>
+              <span class="stackTag">Streamlit</span>
+              <span class="stackTag">Pandas / NumPy</span>
+              <span class="stackTag">PostgreSQL</span>
+              <span class="stackTag">Excel</span>
+              <span class="stackTag">GCP</span>
+              <span class="stackTag">Git &amp; GitHub</span>
+              <span class="stackTag">Agile / Scrum</span>
+            </div>
+          </div>
+
+          <div class="about__social reveal" data-delay="320">
+            <a class="social__btn" href="https://linkedin.com/in/sizamayeenkadri" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true">
+                <path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 21h4V9H3v12Zm7 0h4v-6.5c0-1.7.3-3.3 2.4-3.3 2.1 0 2.1 2 2.1 3.4V21h4v-7.2c0-3.5-.7-6.2-4.8-6.2-2 0-3.3 1.1-3.8 2.1h-.1V9h-3.8v12Z"/>
+              </svg>
+            </a>
+            <a class="social__btn" href="https://github.com/sizakadri" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true">
+                <path fill="currentColor" d="M12 .5A11.5 11.5 0 0 0 8.4 23c.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.6-.7 1.6-.7.1-.7.4-1 .7-1.3-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.7.8 1.2 1.9 1.2 3.2 0 4.6-2.7 5.6-5.3 5.9.4.4.8 1 .8 2v3c0 .3.2.7.8.6A11.5 11.5 0 0 0 12 .5Z"/>
+              </svg>
+            </a>
+            <a class="social__btn" href="mailto:sizakadri210@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true">
+                <path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="about__right reveal" data-delay="120">
+          <div class="about__imgFrame">
+            <img class="about__img" src="assets/sizamayeen.jpg" alt="Sizamayeen Kadri" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section id="project" class="section sectionBoundary">
+    <div class="wrap">
+      <p class="section__eyebrow reveal" data-delay="0">WHAT I'VE BUILT</p>
+      <h2 class="section__title reveal" data-delay="60">Projects</h2>
+      <div id="projectList" class="projectList"></div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact" class="section sectionBoundary">
+    <div class="wrap">
+      <p class="section__eyebrow reveal" data-delay="0">GET IN TOUCH</p>
+      <h2 class="section__title reveal" data-delay="60">Contact</h2>
+
+      <div class="contact">
+        <div class="contact__info reveal" data-delay="0">
+          <p class="contact__text">
+            Open to data analyst roles, freelance projects, and collaborations. Fill out the form and I'll get back to you.
+          </p>
+          <div class="contact__links">
+            <a class="contact__link" href="mailto:sizakadri210@gmail.com">
+              <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
+                <path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/>
+              </svg>
+              sizakadri210@gmail.com
+            </a>
+            <a class="contact__link" href="https://linkedin.com/in/sizamayeenkadri" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
+                <path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5ZM3 21h4V9H3v12Zm7 0h4v-6.5c0-1.7.3-3.3 2.4-3.3 2.1 0 2.1 2 2.1 3.4V21h4v-7.2c0-3.5-.7-6.2-4.8-6.2-2 0-3.3 1.1-3.8 2.1h-.1V9h-3.8v12Z"/>
+              </svg>
+              linkedin.com/in/sizamayeenkadri
+            </a>
+          </div>
+        </div>
+
+        <form class="contactForm reveal" id="contactForm" data-delay="120" novalidate>
+          <div class="formRow">
+            <div class="formGroup">
+              <label class="formLabel" for="cf-name">Name</label>
+              <input class="formInput" id="cf-name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="formGroup">
+              <label class="formLabel" for="cf-email">Email</label>
+              <input class="formInput" id="cf-email" name="email" type="email" placeholder="your@email.com" required />
+            </div>
+          </div>
+          <div class="formGroup">
+            <label class="formLabel" for="cf-message">Message</label>
+            <textarea class="formInput formInput--textarea" id="cf-message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+          </div>
+          <div class="formFooter">
+            <button class="formSubmit" type="submit" id="formSubmitBtn">
+              <span class="formSubmit__label">Send Message</span>
+              <span class="formSubmit__arrow" aria-hidden="true">→</span>
+            </button>
+            <p class="formStatus" id="formStatus" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span class="footer__copy">Designed &amp; built by Sizamayeen Kadri · 2026</span>
+      <div class="footer__links">
+        <a href="https://linkedin.com/in/sizamayeenkadri" target="_blank" rel="noreferrer">LinkedIn</a>
+        <span class="footer__dot" aria-hidden="true">·</span>
+        <a href="https://github.com/sizakadri" target="_blank" rel="noreferrer">GitHub</a>
+        <span class="footer__dot" aria-hidden="true">·</span>
+        <a href="mailto:sizakadri210@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
